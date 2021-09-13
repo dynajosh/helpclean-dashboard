@@ -1,0 +1,61 @@
+.signin-wrapper {
+  height: 100vh;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('../../img/auth-bg.png');
+  background-size: cover;
+}
+
+.signin-form {
+  background-color: #f6f6f9;
+  height: auto;
+  width: 600px;
+  border-radius: 10px;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1000;
+  justify-content: center;
+  box-shadow: 2px 3px 9px rgba(0, 4, 8, 0.06);
+  align-items: center;
+}
+.signin-div {
+  width: 100%;
+}
+
+.signin-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+  .signin-form {
+    background-color: #f6f6f9;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10% 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 3px 9px rgba(0, 4, 8, 0.06);
+    align-items: center;
+  }
+  .signin-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+  }
+}
